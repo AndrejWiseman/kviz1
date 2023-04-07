@@ -79,8 +79,7 @@ const QuizPage = () => {
         //   setShowCorrectAnswer(true)
           setShowCorrectAnswer(false)
           setCorrectAnswer(null)
-        // }, 2000)
-        }, 1300)
+        }, 2000)
       }
       setQuestionCount(questionCount + 1)
     }
@@ -113,7 +112,7 @@ const QuizPage = () => {
             <h1>Zastave</h1>
 
             {!gameStarted &&
-            <button onClick={() => setGameStarted(true)} className="dugme-start">Pocni igru</button>
+            <button onClick={() => setGameStarted(true)} className="dugme-start">Počni igru</button>
             }
 
 
@@ -128,8 +127,8 @@ const QuizPage = () => {
                         {showCorrectAnswer &&
                             <div className="pogreseno">
                                 <div className="pogresno-text">
-                                    <p className="p1">Pogresno!</p>
-                                    <p className="p2">Tacan odgovor je <span>{correctAnswer}</span></p>
+                                    <p className="p1">Pogrešno!</p>
+                                    <p className="p2">Tačan odgovor je <span>{correctAnswer}</span></p>
                                 </div>
                             </div>
                         }
