@@ -1,0 +1,30 @@
+
+.pitanja-polje {
+    width: 95%;
+    height: 90%;
+    margin: 0.5rem auto;
+
+    border: 1px solid green;
+
+    .slika {
+        width: 200px;
+        height: 100px;
+        border: 1px solid blue;
+        margin: 0.7rem auto;
+    }
+
+    .odgovori {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        max-width: 70%;
+        margin: 2rem auto;
+
+        border: 1px solid yellow;
+
+        button {
+            padding: 0.5rem;
+            cursor: pointer;
+        }
+    }
+}

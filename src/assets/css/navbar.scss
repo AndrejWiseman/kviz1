@@ -1,0 +1,122 @@
+
+.navbar {
+    background-color: var(--crnaBg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 0;
+    
+
+    .nav-center {
+        width: 90vw;
+        max-width: 100%;
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+        .nav-header {
+            // height: 6rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            .logo {
+                color: var(--bela);
+                text-decoration: none;
+                font-size: 0.7rem;
+
+                span {
+                    color: var(--narandzasta);
+                }
+            }
+        }
+
+        button {
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 2rem;
+            height: 1.5rem;
+            background-color: var(--narandzasta);
+            border: none;
+            color: white;
+        }
+
+        
+    }
+
+    .nav-links {
+        height: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        transition: 1s ease-in-out all;
+
+        a {
+            text-decoration: none;
+            color: var(--bela);
+            padding: 0.6rem;
+            letter-spacing: 1px;
+            font-size: 1rem;
+            transition: 1s ease all;
+        }
+
+        .active-link {
+            color: var(--narandzasta)
+        }
+    }
+
+    .show-links {
+        height: 8rem;
+        transition: 0.6s ease-in-out all;
+    }
+
+
+
+
+    @media screen and (min-width: 400px) {
+        height: 3rem;
+        
+
+        .nav-center {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+
+            .nav-header {
+                padding: 0;
+                // margin-right: 2rem;
+                // height: áuto;
+
+                .logo {
+                    font-size: 1rem;
+                }
+                
+            }
+
+            button {
+                display: none;
+            }
+        }
+
+
+        .nav-links {
+            height: auto !important;
+            // height: 3rem;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            transition: all 0.6s ease;
+        }
+
+        .show-links {
+            height: 13rem;
+        }
+    }    
+}

@@ -1,0 +1,175 @@
+
+.kviz-container {
+    max-width: 350px;
+    height: 80vh;
+    margin: 1rem auto;
+
+    position: relative;
+    // background-color: #333;
+
+    // border: 1px solid red;
+
+    
+
+    .kviz-polje {
+
+        .br-pitanja {
+            color: var(--narandzasta);
+        }
+        
+
+        h3 {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            padding-left: 1rem;
+        }
+
+        img {
+            width: 90%;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            
+        }
+
+        
+
+        .odgovori-polje {
+            position: absolute;
+            padding: 5px;
+            width: 100%;
+            bottom: 0;
+    
+            // border: 1px solid blue;
+
+            .pogreseno {
+                position: relative;
+                width: 80%;
+                height: 30vh;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: #0d0d0ddc;
+
+                .pogresno-text {
+                    text-align: center;
+                    padding-top: 0.5rem;
+                    
+                    // border: 1px solid pink;
+
+                    .p1 {
+                        margin: 2rem;
+                        font-size: 1.6rem;
+                        font-weight: bold;
+                        color: var(--narandzasta);
+                    }
+                    .p2 {
+                        color: black;
+                        font-weight: bold;
+                        color: var(--narandzasta);
+
+                        span {
+                            color: green;
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+    
+            
+
+            
+    
+            .ponudjeni-odgovori {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                bottom: 0;
+                gap: 5px;
+                
+    
+                .odgovori-dugme {
+                    color: var(--narandzasta);
+                    font-weight: bold;
+                    padding: 9px 0;
+                    cursor: pointer;
+                    background-color: #333;
+                    border: none;
+                }
+    
+            }
+    
+        }
+
+    }
+
+    .dugme-start {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1rem;
+        padding: 7px 20px;
+        background-color: var(--narandzasta);
+        color: var(--bela);
+        font-weight: 700;
+        border: none;
+        cursor: pointer;
+    }
+
+    
+
+    h1 {
+        text-align: center;
+        font-size: 1.3rem;
+        color: var(--bela);
+    }
+
+    .rezultat-polje {
+        height: 100%;
+        position: relative;
+
+        // border: 1px solid yellow;
+
+        .score-polje {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            // height: 50%;
+
+            // border: 1px solid white;
+
+            h3 {
+                text-align: center;
+                margin-bottom: 8rem;
+                font-size: 2rem;
+            }
+
+            .rez-span1 {
+                color: var(--bela);
+            }
+            .rez-span2 {
+                color: var(--narandzasta);
+            }
+    
+            button {
+                
+                cursor: pointer;
+                font-size: 1rem;
+                padding: 7px 20px;
+                background-color: var(--narandzasta);
+                color: var(--bela);
+                font-weight: 700;
+                border: none;
+            }
+
+        }
+
+        
+    }
+
+    
+
+    
+}
