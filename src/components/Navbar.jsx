@@ -19,7 +19,7 @@ const Navbar = () => {
                 </div>
 
                 <div className={show ? 'nav-links show-links' : 'nav-links'}>
-                        <Link to='/' activeClassName='active-link' onClick={() => setShow(false)}>Pocetna</Link>
+                        <Link to='/' activeClassName='active-link' onClick={() => setShow(false)}>Početna</Link>
                         <Link to='/kviz' activeClassName='active-link' onClick={() => setShow(false)}>Kvizovi</Link>
                         <Link to='/igre' activeClassName='active-link' onClick={() => setShow(false)}>Igre</Link>
                 </div>

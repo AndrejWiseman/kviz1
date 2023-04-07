@@ -44,23 +44,23 @@ module.exports = {
     `gatsby-transformer-json`,
 
 
-    // {
-    //   resolve: `gatsby-plugin-webfonts`,
-    //   options: {
-    //     fonts: {
-    //       google: [
-    //         {
-    //           family: "Roboto",
-    //           variants: ["300", "400", "500"],
-    //         },
-    //         {
-    //           family: "Open Sans Condensed",
-    //           variants: ["300", "700"],
-    //         },
-    //       ],
-    //     },
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Roboto",
+              variants: ["300", "400", "500"],
+            },
+            {
+              family: "Open Sans Condensed",
+              variants: ["300", "700"],
+            },
+          ],
+        },
+      },
+    },
 
 
 

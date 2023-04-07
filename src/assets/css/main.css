@@ -56,4 +56,12 @@
   --siva: #51545a;
   --crvena: #D81F26;
   --bela: #eeeeee;
+
+  --font1: "Roboto"
+
+}
+
+body {
+  font-family: var(--font1);
+  letter-spacing: 1px;
 }
