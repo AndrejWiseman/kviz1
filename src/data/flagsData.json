@@ -533,10 +533,6 @@
     "flag": "https://flagcdn.com/kp.svg"
     },
     {
-    "country": "Makedonija",
-    "flag": "https://flagcdn.com/mk.svg"
-    },
-    {
     "country": "Norveška",
     "flag": "https://flagcdn.com/no.svg"
     },
@@ -571,10 +567,6 @@
     {
     "country": "Peru",
     "flag": "https://flagcdn.com/pe.svg"
-    },
-    {
-    "country": "Filipini",
-    "flag": "https://flagcdn.com/ph.svg"
     },
     {
     "country": "Poljska",
@@ -615,6 +607,10 @@
     {
     "country": "Samoa",
     "flag": "https://flagcdn.com/ws.svg"
+    },
+    {
+    "country": "Salvador",
+    "flag": "https://flagcdn.com/sv.svg"
     },
     {
     "country": "San Marino",
@@ -665,15 +661,7 @@
     "flag": "https://flagcdn.com/so.svg"
     },
     {
-    "country": "Južna Afrika",
-    "flag": "https://flagcdn.com/za.svg"
-    },
-    {
-    "country": "Južna Koreja",
-    "flag": "https://flagcdn.com/kr.svg"
-    },
-    {
-    "country": "Sudan",
+    "country": "Južni Sudan",
     "flag": "https://flagcdn.com/ss.svg"
     },
     {
@@ -819,5 +807,14 @@
     {
     "country": "Zapadna Sahara",
     "flag": "https://flagcdn.com/eh.svg"
+    },
+
+    {
+      "country": "Antartika",
+      "flag": "https://flagcdn.com/aq.svg"
+    },
+    {
+      "country": "Ujedinjene Nacije",
+      "flag": "https://flagcdn.com/un.svg"
     }
 ]

@@ -28,11 +28,9 @@
         "Burkina Faso",
         "Burundi",
         "Butan",
-        "Kape Verde",
         "Čad",
         "Češka",
         "Čile",
-        "Crna Gora",
         "Danska",
         "Dominika",
         "Dominikanska Republika",
@@ -88,9 +86,11 @@
         "Kiribati",
         "Kolumbija",
         "Komorska Ostrva",
+        "Kajmanska Ostrva",
         "Republika Kongo",
         "Demokratska Republika Kongo",
         "Kostarika",
+        "Kape Verde",
         "Kuba",
         "Kina",
         "Kuvajt",
@@ -197,6 +197,9 @@
         "Vijetnam",
         "Zambija",
         "Zapadna Sahara",
-        "Zimbabve"
+        "Zimbabve",
+
+        "Antartika",
+        "Ujedinjene Nacije"
     ]
 }
