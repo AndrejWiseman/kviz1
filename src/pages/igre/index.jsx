@@ -1,14 +1,23 @@
-import React from 'react'
+import * as React from "react"
+import '../../assets/css/kviz-stranica.scss'
 import Layout from '../../components/Layout'
-import '../../assets/css/igre-pocetna.scss'
+
+import { Link } from 'gatsby'
 
 
-const Home = () => {
+export default function Home() {
     return (
-        <Layout>
-            <h2 className='naslovno'>Stranica je u pripremi</h2>
-        </Layout>
+      <Layout>
+        
+  
+          <div className="kvizovi">
+  
+            <h2>Izaberi igru i zabavi se!</h2>
+  
+  
+            <Link to='/igre/broj' className="zastave">Pogodi broj</Link>
+          </div>
+  
+      </Layout>
     )
-}
-
-export default Home
+  }

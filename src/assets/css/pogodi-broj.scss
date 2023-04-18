@@ -1,0 +1,66 @@
+
+.broj-polje {
+    max-width: 350px;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 3rem 0;
+
+    h1 {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: var(--bela);
+    }
+
+    .konfete {
+        width: 100%;
+        height: 99vh;
+    }
+
+    .form {
+
+        label {
+
+            p {
+                color: var(--bela);
+                margin-bottom: 15px;
+            }
+    
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+
+            .input {
+                width: 5rem;
+                padding: 5px;
+                margin-right: 2rem;
+            }  
+        }
+
+        .dugme-pokusaj {
+            padding: 5px 10px;
+            background-color: var(--crnaBg);
+            color: var(--bela);
+            border: 1px solid var(--zuta);
+        }
+    }
+
+    .feedback {
+        color: var(--zuta);
+        margin-top: 1rem;
+    }
+
+    .preostalo-pokusaja {
+        color: var(--crvena);
+        margin: 1rem 0;
+    }
+
+    .dugme-ponovo {
+        padding: 5px 20px;
+        background-color: var(--narandzasta);
+        border: none;
+    }
+
+}
