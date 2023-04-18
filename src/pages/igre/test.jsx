@@ -1,150 +1,70 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react"
 
-function GuessNumberGame() {
-  const [targetNumber, setTargetNumber] = useState(Math.floor(Math.random() * 100) + 1);
-  const [guessCount, setGuessCount] = useState(0);
-  const [guess, setGuess] = useState("");
-  const [feedback, setFeedback] = useState("");
-  const [remainingGuesses, setRemainingGuesses] = useState(10);
+const Hangman = () => {
+  const words = ["apple", "banana", "orange", "pear", "peach"]
+  const [answer, setAnswer] = useState("")
+  const [guesses, setGuesses] = useState([])
+  const [mistakes, setMistakes] = useState(0)
 
-  function handleInputChange(event) {
-    setGuess(event.target.value);
-  }
+  useEffect(() => {
+    setAnswer(words[Math.floor(Math.random() * words.length)])
+  }, [])
 
-  function handleFormSubmit(event) {
-    event.preventDefault();
-
-    const guessNumber = parseInt(guess);
-
-    if (isNaN(guessNumber)) {
-      setFeedback("Please enter a valid number.");
-    } else if (guessNumber < targetNumber) {
-      setFeedback("Too low!");
-      setGuessCount(guessCount + 1);
-      setRemainingGuesses(remainingGuesses - 1);
-    } else if (guessNumber > targetNumber) {
-      setFeedback("Too high!");
-      setGuessCount(guessCount + 1);
-      setRemainingGuesses(remainingGuesses - 1);
-    } else {
-      setFeedback(`Congratulations, you guessed the number in ${guessCount + 1} attempts!`);
-      setTargetNumber(Math.floor(Math.random() * 100) + 1);
-      setGuessCount(0);
-      setGuess("");
-      setRemainingGuesses(10);
-    }
-
-    if (remainingGuesses <= 0) {
-      setFeedback(`Game over. The number was ${targetNumber}.`);
-      setTargetNumber(Math.floor(Math.random() * 100) + 1);
-      setGuessCount(0);
-      setGuess("");
-      setRemainingGuesses(10);
+  const handleGuess = (letter) => {
+    if (!guesses.includes(letter)) {
+      setGuesses([...guesses, letter])
+      if (!answer.includes(letter)) {
+        setMistakes(mistakes + 1)
+      }
     }
   }
 
-  function handleResetClick() {
-    setTargetNumber(Math.floor(Math.random() * 100) + 1);
-    setGuessCount(0);
-    setGuess("");
-    setFeedback("");
-    setRemainingGuesses(10);
+  const showAnswer = () => {
+    return answer.split("").map((letter, index) => (
+      <span key={index} className="answer-letter">
+        {guesses.includes(letter) ? letter : "_"}
+      </span>
+    ))
+  }
+
+  const showHangman = () => {
+    const images = [
+      "https://i.imgur.com/s3q6mB1.png",
+      "https://i.imgur.com/JQx6gGi.png",
+      "https://i.imgur.com/YlUn1N5.png",
+      "https://i.imgur.com/H9XxG30.png",
+      "https://i.imgur.com/1uG7j29.png",
+      "https://i.imgur.com/9uX7VjK.png",
+    ]
+    return <img src={images[mistakes]} alt="Hangman" />
+  }
+
+  const showAlphabet = () => {
+    return Array.from({ length: 26 }, (_, i) => String.fromCharCode("A".charCodeAt(0) + i)).map((letter) => (
+      <button key={letter} onClick={() => handleGuess(letter)} disabled={guesses.includes(letter)}>
+        {letter}
+      </button>
+    ))
+  }
+
+  const isGameOver = () => {
+    return mistakes >= 6 || answer.split("").every((letter) => guesses.includes(letter))
   }
 
   return (
-    <div>
-      <h1>Guess the number</h1>
-      <form onSubmit={handleFormSubmit}>
-        <label>
-          Enter a number between 1 and 100:
-          <input type="number" value={guess} onChange={handleInputChange} />
-        </label>
-        <button type="submit">Guess</button>
-      </form>
-      <p>{feedback}</p>
-      <p>Remaining guesses: {remainingGuesses}</p>
-      <button onClick={handleResetClick}>Reset</button>
+    <div className="hangman">
+      <h1>Hangman Game</h1>
+      <div className="hangman-image">{showHangman()}</div>
+      <div className="hangman-answer">{showAnswer()}</div>
+      <div className="hangman-alphabet">{showAlphabet()}</div>
+      {isGameOver() && (
+        <div className="game-over">
+          {mistakes >= 6 ? <p>You lost. The answer was "{answer}".</p> : <p>You won!</p>}
+          <button onClick={() => window.location.reload()}>Play again</button>
+        </div>
+      )}
     </div>
-  );
+  )
 }
 
-export default GuessNumberGame;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React, { useState } from "react";
-
-// function GuessNumberGame() {
-//   const [targetNumber, setTargetNumber] = useState(Math.floor(Math.random() * 100) + 1);
-//   const [guessCount, setGuessCount] = useState(0);
-//   const [guess, setGuess] = useState("");
-//   const [feedback, setFeedback] = useState("");
-
-//   function handleInputChange(event) {
-//     setGuess(event.target.value);
-//   }
-
-//   function handleFormSubmit(event) {
-//     event.preventDefault();
-
-//     const guessNumber = parseInt(guess);
-
-//     if (isNaN(guessNumber)) {
-//       setFeedback("Please enter a valid number.");
-//     } else if (guessNumber < targetNumber) {
-//       setFeedback("Too low!");
-//       setGuessCount(guessCount + 1);
-//     } else if (guessNumber > targetNumber) {
-//       setFeedback("Too high!");
-//       setGuessCount(guessCount + 1);
-//     } else {
-//       setFeedback(`Congratulations, you guessed the number in ${guessCount + 1} attempts!`);
-//       setTargetNumber(Math.floor(Math.random() * 100) + 1);
-//       setGuessCount(0);
-//       setGuess("");
-//     }
-//   }
-
-//   function handleResetClick() {
-//     setTargetNumber(Math.floor(Math.random() * 100) + 1);
-//     setGuessCount(0);
-//     setGuess("");
-//     setFeedback("");
-//   }
-
-//   return (
-//     <div>
-//       <h1>Guess the number</h1>
-//       <form onSubmit={handleFormSubmit}>
-//         <label>
-//           Enter a number between 1 and 100:
-//           <input type="number" value={guess} onChange={handleInputChange} />
-//         </label>
-//         <button type="submit">Guess</button>
-//       </form>
-//       <p>{feedback}</p>
-//       <button onClick={handleResetClick}>Reset</button>
-//     </div>
-//   );
-// }
-
-// export default GuessNumberGame;
+export default Hangman
