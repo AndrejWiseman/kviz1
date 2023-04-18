@@ -25,6 +25,10 @@ export default function Home() {
 
 
           <Link to='/kviz/zastava' className="zastave">Zastave</Link>
+
+          
+
+          <Link to='/kviz/grad' className="zastave">Glavni gradovi</Link>
         </div>
 
       

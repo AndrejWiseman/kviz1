@@ -1,0 +1,812 @@
+[
+    {
+      "country": "Avganistan",
+      "flag": "Kabul"
+    },
+    {
+      "country": "Albanija",
+      "flag": "Tirana"
+    },
+    {
+      "country": "Alžir",
+      "flag": "Alžir"
+    },
+    {
+      "country": "Andora",
+      "flag": "Andora la Velja"
+    },
+    {
+      "country": "Angola",
+      "flag": "Luanda"
+    },
+    {
+      "country": "Antigva i Barbuda",
+      "flag": "Sent Džons"
+    },
+    {
+      "country": "Argentina",
+      "flag": "Buenos Ajres"
+    },
+    {
+      "country": "Armenija",
+      "flag": "Jervan"
+    },
+    {
+      "country": "Australija",
+      "flag": "Kanbera"
+    },
+    {
+      "country": "Austrija",
+      "flag": "https://flagcdn.com/at.svg"
+    },
+    {
+      "country": "Azerbejdžan",
+      "flag": "Baku"
+    },
+    {
+      "country": "Bahami",
+      "flag": "Nasau"
+    },
+    {
+      "country": "Bahrein",
+      "flag": "Manama"
+    },
+    {
+      "country": "Bangladeš",
+      "flag": "Daka"
+    },
+    {
+      "country": "Barbados",
+      "flag": "Bridžtaun"
+    },
+    {
+      "country": "Belgija",
+      "flag": "Brisel"
+    },
+    {
+      "country": "Belize",
+      "flag": "Belmopan"
+    },
+    {
+      "country": "Benin",
+      "flag": "Porto Novo"
+    },
+    {
+      "country": "Belorusija",
+      "flag": "Minsk"
+    },
+    {
+      "country": "Bocvana",
+      "flag": "Gaborone"
+    },
+    {
+      "country": "Bolivija",
+      "flag": "Sukre"
+    },
+    {
+      "country": "Bosna i Hercegovina",
+      "flag": "Sarajevo"
+    },
+    {
+      "country": "Brazil",
+      "flag": "Brazilija"
+    },
+    {
+      "country": "Brunej",
+      "flag": "Bandar Seri Begavan"
+    },
+    {
+      "country": "Bugarska",
+      "flag": "Sofija"
+    },
+    {
+      "country": "Burkina Faso",
+      "flag": "Uagadugu"
+    },
+    {
+      "country": "Burundi",
+      "flag": "Gitega"
+    },
+    {
+    "country": "Butan",
+    "flag": "Timbu"
+    },
+    {
+    "country": "Crna Gora",
+    "flag": "Podgorica"
+    },
+
+    {
+    "country": "Čad",
+    "flag": "Ndžamena"
+    },
+    {
+    "country": "Češka",
+    "flag": "Prag"
+    },
+    {
+    "country": "Čile",
+    "flag": "Santjago"
+    },
+    {
+    "country": "Danska",
+    "flag": "Kopenhagen"
+    },
+    {
+    "country": "Dominika",
+    "flag": "Rozo"
+    },
+    {
+    "country": "Dominikanska Republika",
+    "flag": "Santo Domingo"
+    },
+    {
+    "country": "Džibuti",
+    "flag": "Džibuti"
+    },
+    {
+    "country": "Egipat",
+    "flag": "Kairo"
+    },
+    {
+    "country": "Ekvador",
+    "flag": "Kito"
+    },
+    {
+    "country": "Ekvatorijalna Gvineja",
+    "flag": "Malabo"
+    },
+    {
+    "country": "Eritreja",
+    "flag": "Asmara"
+    },
+    {
+    "country": "Estonija",
+    "flag": "Talin"
+    },
+    {
+    "country": "Etiopija",
+    "flag": "Adis Abeba"
+    },
+    {
+    "country": "Fidži",
+    "flag": "Suva"
+    },
+    {
+    "country": "Filipini",
+    "flag": "Manila"
+    },
+    {
+    "country": "Finska",
+    "flag": "Helsinki"
+    },
+    {
+    "country": "Francuska",
+    "flag": "Pariz"
+    },
+    {
+    "country": "Gabon",
+    "flag": "Libervil"
+    },
+    {
+    "country": "Gambija",
+    "flag": "Bandžul"
+    },
+    {
+    "country": "Gana",
+    "flag": "Akra"
+    },
+    {
+    "country": "Gibraltar",
+    "flag": "Gibraltar"
+    },
+    {
+    "country": "Grčka",
+    "flag": "Atina"
+    },
+    {
+    "country": "Grenada",
+    "flag": "Sent Džordžiz"
+    },
+    {
+    "country": "Gruzija",
+    "flag": "Tbilisi"
+    },
+    {
+    "country": "Gvajana",
+    "flag": "Džordžtaun"
+    },
+    {
+    "country": "Gvatemala",
+    "flag": "Gvatemala"
+    },
+    {
+    "country": "Gvineja",
+    "flag": "Konakri"
+    },
+    {
+    "country": "Gvineja Bisao",
+    "flag": "Bisao"
+    },
+    {
+    "country": "Haiti",
+    "flag": "Port o Prens"
+    },
+    {
+    "country": "Honduras",
+    "flag": "Tegusigalpa"
+    },
+    {
+    "country": "Hrvatska",
+    "flag": "Zagreb"
+    },
+    {
+    "country": "Indija",
+    "flag": "Nju Delhi"
+    },
+    {
+    "country": "Indonezija",
+    "flag": "Džakarta"
+    },
+    {
+    "country": "Irak",
+    "flag": "Bagdad"
+    },
+    {
+    "country": "Iran",
+    "flag": "Teheran"
+    },
+    {
+    "country": "Irska",
+    "flag": "Dablin"
+    },
+    {
+    "country": "Island",
+    "flag": "Rejkjavik"
+    },
+    {
+    "country": "Izrael",
+    "flag": "Jerusalim"
+    },
+    {
+    "country": "Italija",
+    "flag": "Rim"
+    },
+    {
+    "country": "Jamajka",
+    "flag": "Kingston"
+    },
+    {
+    "country": "Japan",
+    "flag": "Tokio"
+    },
+    {
+    "country": "Jemen",
+    "flag": "Sana"
+    },
+    {
+    "country": "Jordan",
+    "flag": "Aman"
+    },
+    {
+    "country": "Južna Afrika",
+    "flag": "Pretorija"
+    },
+    {
+    "country": "Južna Koreja",
+    "flag": "Seul"
+    },
+    {
+    "country": "Južni Sudan",
+    "flag": "Džuba"
+    },
+    {
+    "country": "Kajmanska Ostrva",
+    "flag": "Džordžtaun"
+    },
+    {
+    "country": "Kipar",
+    "flag": "Nikozija"
+    },
+    {
+    "country": "Kape Verde",
+    "flag": "Praja"
+    },
+    {
+    "country": "Kambodža",
+    "flag": "Pnom Pen"
+    },
+    {
+    "country": "Kamerun",
+    "flag": "Jaunde"
+    },
+    {
+    "country": "Kanada",
+    "flag": "Otava"
+    },
+    {
+    "country": "Katar",
+    "flag": "Doha"
+    },
+    {
+    "country": "Kazahstan",
+    "flag": "Nur Sultan"
+    },
+    {
+    "country": "Kenija",
+    "flag": "Najrobi"
+    },
+    {
+    "country": "Kina",
+    "flag": "Peking"
+    },
+    {
+    "country": "Kirgistan",
+    "flag": "Biškek"
+    },
+    {
+    "country": "Kiribati",
+    "flag": "Tarava"
+    },
+    {
+    "country": "Kolumbija",
+    "flag": "Bogota"
+    },
+    {
+    "country": "Komorska Ostrva",
+    "flag": "Moroni"
+    },
+    {
+    "country": "Republika Kongo",
+    "flag": "Brazavil"
+    },
+    {
+    "country": "Demokratska Republika Kongo",
+    "flag": "Kinšasa"
+    },
+    {
+    "country": "Kostarika",
+    "flag": "San Hose"
+    },
+    {
+    "country": "Kuba",
+    "flag": "Havana"
+    },
+    {
+    "country": "Kuvajt",
+    "flag": "Kuvajt"
+    },
+    {
+    "country": "Laos",
+    "flag": "Vijentijan"
+    },
+    {
+    "country": "Lesoto",
+    "flag": "Maseru"
+    },
+    {
+    "country": "Letonija",
+    "flag": "Riga"
+    },
+    {
+    "country": "Liban",
+    "flag": "Bejrut"
+    },
+    {
+    "country": "Liberija",
+    "flag": "Monrovija"
+    },
+    {
+    "country": "Libija",
+    "flag": "Tripoli"
+    },
+    {
+    "country": "Lihtenštajn",
+    "flag": "Vaduc"
+    },
+    {
+    "country": "Litvanija",
+    "flag": "Vilnus"
+    },
+    {
+    "country": "Luksemburg",
+    "flag": "Luksemburg"
+    },
+    {
+    "country": "Madagaskar",
+    "flag": "Antananarivo"
+    },
+    {
+    "country": "Mađarska",
+    "flag": "Budimpešta"
+    },
+    {
+    "country": "Makedonija",
+    "flag": "Skoplje"
+    },
+    {
+    "country": "Malavi",
+    "flag": "Lilongve"
+    },
+    {
+    "country": "Maldivi",
+    "flag": "Male"
+    },
+    {
+    "country": "Malezija",
+    "flag": "Kuala Lumpur"
+    },
+    {
+    "country": "Mali",
+    "flag": "Bamako"
+    },
+    {
+    "country": "Malta",
+    "flag": "Valeta"
+    },
+    {
+    "country": "Maroko",
+    "flag": "Rabat"
+    },
+    {
+    "country": "Maršalska Ostrva",
+    "flag": "Madžuro"
+    },
+    {
+    "country": "Mauricijus",
+    "flag": "Port Luis"
+    },
+    {
+    "country": "Mauritanija",
+    "flag": "Nuakšot"
+    },
+    {
+    "country": "Meksiko",
+    "flag": "Meksiko"
+    },
+    {
+    "country": "Mianmar (Burma)",
+    "flag": "Nejpjido"
+    },
+    {
+    "country": "Mikronezija",
+    "flag": "Palikir"
+    },
+    {
+    "country": "Moldavija",
+    "flag": "Kišnjev"
+    },
+    {
+    "country": "Monako",
+    "flag": "Monako"
+    },
+    {
+    "country": "Mongolija",
+    "flag": "Ulan Bator"
+    },
+    {
+    "country": "Mozambik",
+    "flag": "Maputo"
+    },
+    {
+    "country": "Namibija",
+    "flag": "Vindhuk"
+    },
+    {
+    "country": "Nauru",
+    "flag": "Jeren"
+    },
+    {
+    "country": "Nepal",
+    "flag": "Katmandu"
+    },
+    {
+    "country": "Nizozemska",
+    "flag": "Amsterdam"
+    },
+    {
+    "country": "Novi Zeland",
+    "flag": "Velington"
+    },
+    {
+    "country": "Nikaragva",
+    "flag": "Managva"
+    },
+    {
+    "country": "Niger",
+    "flag": "Nijamej"
+    },
+    {
+    "country": "Nigerija",
+    "flag": "Abudža"
+    },
+    {
+    "country": "Severna Koreja",
+    "flag": "Pjongjang"
+    },
+    {
+    "country": "Norveška",
+    "flag": "Oslo"
+    },
+    {
+    "country": "Oman",
+    "flag": "Maskat"
+    },
+    {
+    "country": "Obala Slonovače",
+    "flag": "Jamusukro"
+    },
+    {
+    "country": "Pakistan",
+    "flag": "Islamabad"
+    },
+    {
+    "country": "Palau",
+    "flag": "Ngerulmud"
+    },
+    {
+    "country": "Panama",
+    "flag": "Panama"
+    },
+    {
+    "country": "Papua Nova Gvineja",
+    "flag": "Port Morzbi"
+    },
+    {
+    "country": "Paragvaj",
+    "flag": "Asunsion"
+    },
+    {
+    "country": "Peru",
+    "flag": "Lima"
+    },
+    {
+    "country": "Poljska",
+    "flag": "Varšava"
+    },
+    {
+    "country": "Portugal",
+    "flag": "Lisabon"
+    },
+    {
+    "country": "Portoriko",
+    "flag": "San Huan"
+    },
+    {
+    "country": "Rumunija",
+    "flag": "Bukurešt"
+    },
+    {
+    "country": "Rusija",
+    "flag": "Moskva"
+    },
+    {
+    "country": "Ruanda",
+    "flag": "Kigali"
+    },
+    {
+    "country": "Sveti Kristofer i Nevis",
+    "flag": "Baster"
+    },
+    {
+    "country": "Sveta Lucija",
+    "flag": "Kastri"
+    },
+    {
+    "country": "Sveti Vincent i Grenadini",
+    "flag": "Kingstaun"
+    },
+    {
+    "country": "Samoa",
+    "flag": "Apija"
+    },
+    {
+    "country": "Salvador",
+    "flag": "San Salvador"
+    },
+    {
+    "country": "San Marino",
+    "flag": "San Marino"
+    },
+    {
+    "country": "Sveti Toma i Princip",
+    "flag": "Sao Tome"
+    },
+    {
+    "country": "Saudijska Arabija",
+    "flag": "Rijad"
+    },
+    {
+    "country": "Senegal",
+    "flag": "Dakar"
+    },
+    {
+    "country": "Srbija",
+    "flag": "Beograd"
+    },
+    {
+    "country": "Sejšeli",
+    "flag": "Viktorija"
+    },
+    {
+    "country": "Sijera Leone",
+    "flag": "Fritaun"
+    },
+    {
+    "country": "Singapur",
+    "flag": "Singapur"
+    },
+    {
+    "country": "Slovačka",
+    "flag": "Bratislava"
+    },
+    {
+    "country": "Slovenija",
+    "flag": "Ljubljana"
+    },
+    {
+    "country": "Solomonska Ostrva",
+    "flag": "Honijara"
+    },
+    {
+    "country": "Somalija",
+    "flag": "Mogadiš"
+    },
+    {
+    "country": "Južni Sudan",
+    "flag": "Juba"
+    },
+    {
+    "country": "Srednjoafrička Republika",
+    "flag": "Bangi"
+    },
+    {
+    "country": "Španija",
+    "flag": "Madrid"
+    },
+    {
+    "country": "Šri Lanka",
+    "flag": "Sri Džajavardenepura Kote"
+    },
+    {
+    "country": "Sudan",
+    "flag": "Kartum"
+    },
+    {
+    "country": "Surinam",
+    "flag": "Paramaribo"
+    },
+    {
+    "country": "Svaziland",
+    "flag": "Mbabane"
+    },
+    {
+    "country": "Švedska",
+    "flag": "Štokholm"
+    },
+    {
+    "country": "Švicarska",
+    "flag": "Bern"
+    },
+    {
+    "country": "Sirija",
+    "flag": "Damask"
+    },
+    {
+    "country": "Tajvan",
+    "flag": "Taipei"
+    },
+    {
+    "country": "Tadžikistan",
+    "flag": "Dušanbe"
+    },
+    {
+    "country": "Tanzanija",
+    "flag": "Dodoma"
+    },
+    {
+    "country": "Tajland",
+    "flag": "Bangkok"
+    },
+    {
+    "country": "Istočni Timor",
+    "flag": "Dili"
+    },
+    {
+    "country": "Togo",
+    "flag": "Lome"
+    },
+    {
+    "country": "Tonga",
+    "flag": "Nukualofa"
+    },
+    {
+    "country": "Trinidad i Tobago",
+    "flag": "Port of Spejn"
+    },
+    {
+    "country": "Tunis",
+    "flag": "Tunis"
+    },
+    {
+    "country": "Turska",
+    "flag": "Ankara"
+    },
+    {
+    "country": "Turkmenistan",
+    "flag": "Ašhabad"
+    },
+    {
+    "country": "Tuvalu",
+    "flag": "Funafuti"
+    },
+    {
+    "country": "Uganda",
+    "flag": "Kampala"
+    },
+    {
+    "country": "Ukrajina",
+    "flag": "Kijev"
+    },
+    {
+    "country": "Ujedinjeni Arapski Emirati",
+    "flag": "Abu Dabi"
+    },
+    {
+    "country": "Velika Britanija",
+    "flag": "London"
+    },
+    {
+    "country": "Sjedinjene Američke Države",
+    "flag": "Vašington"
+    },
+    {
+    "country": "Urugvaj",
+    "flag": "Montevideo"
+    },
+    {
+    "country": "Uzbekistan",
+    "flag": "Taškent"
+    },
+    {
+    "country": "Vanuatu",
+    "flag": "Port Vila"
+    },
+    {
+    "country": "Vatikan",
+    "flag": "Vatikan"
+    },
+    {
+    "country": "Venecuela",
+    "flag": "Karakas"
+    },
+    {
+    "country": "Vijetnam",
+    "flag": "Hanoj"
+    },
+    {
+    "country": "Jemen",
+    "flag": "Sana"
+    },
+    {
+    "country": "Zambija",
+    "flag": "Lusaka"
+    },
+    {
+    "country": "Zimbabve",
+    "flag": "Harare"
+    },
+    {
+    "country": "Zapadna Sahara",
+    "flag": "El Ajun"
+    },
+
+    {
+      "country": "Antartika",
+      "flag": "Antartika"
+    },
+    {
+      "country": "Ujedinjene Nacije",
+      "flag": "Njujork"
+    }
+]
