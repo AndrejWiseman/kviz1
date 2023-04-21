@@ -1,6 +1,7 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
-import { useStaticQuery, graphql } from 'gatsby'
+// import { Helmet } from 'react-helmet'
+// import { useStaticQuery, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 
 const query = graphql`
@@ -15,7 +16,7 @@ const query = graphql`
 `
 
 
-const SEO = ({ title, description }) => {
+const SEO = ({ title, description, children }) => {
 
     const seo = {
         title: title,
@@ -27,6 +28,7 @@ const SEO = ({ title, description }) => {
             <title>{seo.title}</title>
             <meta name="description" content={seo.description} />
             <meta name="google-site-verification" content="4Q3YiXMUj6TdUiPcWPiSxAGHhjj6qg-7nS9TpWgEdvE" />
+            { children }
         </>
     )
 
