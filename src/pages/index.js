@@ -2,6 +2,8 @@ import * as React from "react"
 import '../assets/css/main.css'
 import '../assets/css/pocetna.scss'
 
+import SEO from '../components/SEO'
+
 import Layout from '../components/Layout'
 
 import { Link } from 'gatsby'
@@ -19,7 +21,7 @@ import { Link } from 'gatsby'
 export default function Home() {
   return (
     <Layout>
-      
+      <SEO title="Početna" />
 
       <div className="box">
 

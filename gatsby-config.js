@@ -10,9 +10,12 @@
 
 
 module.exports = {
-  siteMetadata: {
-    title: "kvizoManiA",
-  },
+
+    siteMetadata:{
+      title: 'KvizoManiA',
+      description: 'Za ljubitelje kvizova i mini igara',
+      author: 'ByMe',
+    },
 
   plugins: [
     `gatsby-plugin-image`,

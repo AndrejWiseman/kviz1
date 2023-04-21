@@ -3,6 +3,8 @@ import Confetti from "react-confetti";
 import Layout from "../../components/Layout";
 import "../../assets/css/pogodi-broj.scss";
 
+import SEO from '../../components/SEO'
+
 function GuessNumberGame() {
   const [targetNumber, setTargetNumber] = useState(
     Math.floor(Math.random() * 1000) + 1
@@ -63,6 +65,9 @@ function GuessNumberGame() {
 
   return (
     <Layout>
+
+      <SEO title="Pogodi broj" />
+
       <div
         style={{ border: `5px solid ${borderColor}` }}
         className="broj-polje"
