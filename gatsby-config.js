@@ -84,34 +84,34 @@ module.exports = {
 
 
 
-  {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        query: `
-          {
-            site {
-              siteMetadata {
-                siteUrl
-              }
-            }
-            allSitePage {
-              edges {
-                node {
-                  path
-               
-                }
-              }
-            }
-        }`,
-        serialize: ({ site, allSitePage }) =>
-          allSitePage.edges.map(edge => {
-            return {
-              url: site.siteMetadata.siteUrl + edge.node.path,
-              // lastmod: (edge.node.context.lastmoddate) ? edge.node.context.lastmoddate.substring(0,10) : null
-            }
-          })
-      }
-    },
+  // {
+  //     resolve: `gatsby-plugin-sitemap`,
+  //     options: {
+  //       query: `
+  //         {
+  //           site {
+  //             siteMetadata {
+  //               siteUrl
+  //             }
+  //           }
+  //           allSitePage {
+  //             edges {
+  //               node {
+  //                 path
+  //
+  //               }
+  //             }
+  //           }
+  //       }`,
+  //       serialize: ({ site, allSitePage }) =>
+  //         allSitePage.edges.map(edge => {
+  //           return {
+  //             url: site.siteMetadata.siteUrl + edge.node.path,
+  //             // lastmod: (edge.node.context.lastmoddate) ? edge.node.context.lastmoddate.substring(0,10) : null
+  //           }
+  //         })
+  //     }
+  //   },
 
     {
       resolve: 'gatsby-plugin-robots-txt',
