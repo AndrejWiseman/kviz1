@@ -25,7 +25,7 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-lodash`,
-    
+    `gatsby-plugin-sitemap`,
 
 
     {
