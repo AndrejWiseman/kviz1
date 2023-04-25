@@ -98,9 +98,7 @@ module.exports = {
               edges {
                 node {
                   path
-                  context {
-                    lastmoddate
-                  }
+               
                 }
               }
             }
@@ -109,7 +107,7 @@ module.exports = {
           allSitePage.edges.map(edge => {
             return {
               url: site.siteMetadata.siteUrl + edge.node.path,
-              lastmod: (edge.node.context.lastmoddate) ? edge.node.context.lastmoddate.substring(0,10) : null
+              // lastmod: (edge.node.context.lastmoddate) ? edge.node.context.lastmoddate.substring(0,10) : null
             }
           })
       }
