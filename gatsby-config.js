@@ -15,6 +15,7 @@ module.exports = {
       title: 'KvizoManiA',
       description: 'Za ljubitelje kvizova i mini igara',
       author: 'ByMe',
+      siteUrl: `https://kvizomania.vercel.app/`,
     },
 
   plugins: [
@@ -79,6 +80,57 @@ module.exports = {
           head: true,
         },
       },
+    },
+
+
+
+  {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+            allSitePage {
+              edges {
+                node {
+                  path
+                  context {
+                    lastmoddate
+                  }
+                }
+              }
+            }
+        }`,
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              lastmod: (edge.node.context.lastmoddate) ? edge.node.context.lastmoddate.substring(0,10) : null
+            }
+          })
+      }
+    },
+
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://kvizomania.vercel.app/',
+        sitemap: 'https://kvizomania.vercel.app/sitemap-index.xml',
+        policy: [{userAgent: '*', allow: '/'}],
+        // resolveEnv: () => process.env.GATSBY_ENV,
+        // env: {
+        //   development: {
+        //     policy: [{ userAgent: '*', disallow: ['/'] }]
+        //   },
+        //   production: {
+        //     policy: [{ userAgent: '*', allow: '/' }]
+        //   }
+        // }
+      }
     },
 
 
